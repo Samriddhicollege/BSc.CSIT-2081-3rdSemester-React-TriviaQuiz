@@ -1,0 +1,737 @@
+[
+  {
+    "id": 1,
+    "category": "🌍 Geography",
+    "question": "What is the capital city of Nepal?",
+    "options": ["Pokhara", "Kathmandu", "Biratnagar", "Butwal"],
+    "correctAnswer": "Kathmandu",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "category": "🌍 Geography",
+    "question": "Which is the highest mountain in the world?",
+    "options": ["K2", "Mount Everest", "Makalu", "Kanchenjunga"],
+    "correctAnswer": "Mount Everest",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "category": "🌍 Geography",
+    "question": "Which is the largest continent?",
+    "options": ["Africa", "Asia", "Europe", "Australia"],
+    "correctAnswer": "Asia",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 4,
+    "category": "🌍 Geography",
+    "question": "Which planet is called the Red Planet?",
+    "options": ["Earth", "Mars", "Venus", "Jupiter"],
+    "correctAnswer": "Mars",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5,
+    "category": "🧪 Science",
+    "question": "What is H2O?",
+    "options": ["Oxygen", "Hydrogen", "Water", "Salt"],
+    "correctAnswer": "Water",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "category": "🧪 Science",
+    "question": "What gas do humans breathe in?",
+    "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Helium"],
+    "correctAnswer": "Oxygen",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7,
+    "category": "🧪 Science",
+    "question": "Which organ pumps blood?",
+    "options": ["Brain", "Heart", "Lungs", "Liver"],
+    "correctAnswer": "Heart",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 8,
+    "category": "🧠 General Knowledge",
+    "question": "Who is the current Prime Minister of Nepal?",
+    "options": [
+      "Balendra Shah (Balen Shah)",
+      "KP Sharma Oli",
+      "Sher Bahadur Deuba",
+      "Pushpa Kamal Dahal"
+    ],
+    "correctAnswer": "Balendra Shah (Balen Shah)",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 9,
+    "category": "🧠 General Knowledge",
+    "question": "Who is the current Home Minister of Nepal?",
+    "options": [
+      "Sudan Gurung",
+      "Rabi Lamichhane",
+      "Narayan Kaji Shrestha",
+      "Bal Krishna Khand"
+    ],
+    "correctAnswer": "Sudan Gurung",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 10,
+    "category": "🧠 General Knowledge",
+    "question": "What is the currency of Nepal?",
+    "options": ["Rupee", "Dollar", "Euro", "Yen"],
+    "correctAnswer": "Nepalese Rupee",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 11,
+    "category": "💻 Technology",
+    "question": "What does CPU stand for?",
+    "options": ["Central Processing Unit", "Computer Power Unit", "Control Program Unit", "Central Print Unit"],
+    "correctAnswer": "Central Processing Unit",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 12,
+    "category": "💻 Technology",
+    "question": "What does AI stand for?",
+    "options": ["Artificial Intelligence", "Automatic Internet", "Advanced Interface", "Applied Internet"],
+    "correctAnswer": "Artificial Intelligence",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 13,
+    "category": "💻 Technology",
+    "question": "What does WWW stand for?",
+    "options": ["World Wide Web", "World Web Work", "Wide World Web", "Web World Wide"],
+    "correctAnswer": "World Wide Web",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 14,
+    "category": "🏆 Sports",
+    "question": "How many players are in a football team?",
+    "options": ["10", "11", "12", "9"],
+    "correctAnswer": "11",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 15,
+    "category": "🏆 Sports",
+    "question": "Which country won FIFA World Cup 2022?",
+    "options": ["France", "Brazil", "Argentina", "Germany"],
+    "correctAnswer": "Argentina",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 16,
+    "category": "🎬 Movies",
+    "question": "Who played Iron Man?",
+    "options": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+    "correctAnswer": "Robert Downey Jr.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 17,
+    "category": "🎬 Movies",
+    "question": "Which movie features Harry Potter?",
+    "options": ["Narnia", "Harry Potter", "Lord of the Rings", "Percy Jackson"],
+    "correctAnswer": "Harry Potter",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 18,
+    "category": "🎵 Music",
+    "question": "Who is known as King of Pop?",
+    "options": ["Elvis Presley", "Michael Jackson", "Justin Bieber", "Drake"],
+    "correctAnswer": "Michael Jackson",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 19,
+    "category": "🎵 Music",
+    "question": "How many strings does a guitar have?",
+    "options": ["4", "5", "6", "7"],
+    "correctAnswer": "6",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 20,
+    "category": "📜 History",
+    "question": "Who unified Nepal?",
+    "options": ["Prithvi Narayan Shah", "King Mahendra", "Birendra", "Jung Bahadur"],
+    "correctAnswer": "Prithvi Narayan Shah",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 21,
+    "category": "📜 History",
+    "question": "In which year did WW2 end?",
+    "options": ["1943", "1945", "1947", "1939"],
+    "correctAnswer": "1945",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 22,
+    "category": "🌍 Geography",
+    "question": "Which is the smallest country?",
+    "options": ["Monaco", "Vatican City", "Maldives", "Bhutan"],
+    "correctAnswer": "Vatican City",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 23,
+    "category": "🌍 Geography",
+    "question": "Which ocean is largest?",
+    "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
+    "correctAnswer": "Pacific",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 24,
+    "category": "🧪 Science",
+    "question": "What is boiling point of water?",
+    "options": ["90°C", "100°C", "80°C", "120°C"],
+    "correctAnswer": "100°C",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 25,
+    "category": "💻 Technology",
+    "question": "Who created Microsoft?",
+    "options": ["Steve Jobs", "Bill Gates", "Elon Musk", "Mark Zuckerberg"],
+    "correctAnswer": "Bill Gates",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 26,
+    "category": "🌍 Geography",
+    "question": "Which river is longest?",
+    "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+    "correctAnswer": "Nile",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 27,
+    "category": "🧠 General Knowledge",
+    "question": "How many provinces are in Nepal?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "7",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 28,
+    "category": "🧪 Science",
+    "question": "What is center of atom called?",
+    "options": ["Electron", "Nucleus", "Proton", "Neutron"],
+    "correctAnswer": "Nucleus",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 29,
+    "category": "🌍 Geography",
+    "question": "Which country has largest population?",
+    "options": ["USA", "India", "China", "Russia"],
+    "correctAnswer": "India",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 30,
+    "category": "💻 Technology",
+    "question": "What is Internet?",
+    "options": ["Network", "Software", "Hardware", "Game"],
+    "correctAnswer": "Network",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 31,
+    "category": "📜 History",
+    "question": "When did Nepal become a federal democratic republic?",
+    "options": ["2006", "2008", "2010", "2015"],
+    "correctAnswer": "2008",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 32,
+    "category": "🌍 Geography",
+    "question": "Which is the largest country in the world?",
+    "options": ["USA", "China", "Russia", "Canada"],
+    "correctAnswer": "Russia",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 33,
+    "category": "🌍 Geography",
+    "question": "Which is the deepest ocean?",
+    "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
+    "correctAnswer": "Pacific",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 34,
+    "category": "🧪 Science",
+    "question": "What is chemical symbol of Gold?",
+    "options": ["Ag", "Au", "Gd", "Go"],
+    "correctAnswer": "Au",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 35,
+    "category": "🧪 Science",
+    "question": "Which planet is closest to the Sun?",
+    "options": ["Venus", "Earth", "Mercury", "Mars"],
+    "correctAnswer": "Mercury",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 36,
+    "category": "🧠 General Knowledge",
+    "question": "Who is the current capital of Nepal?",
+    "options": ["Pokhara", "Kathmandu", "Birgunj", "Dharan"],
+    "correctAnswer": "Kathmandu",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 37,
+    "category": "🧠 General Knowledge",
+    "question": "How many continents are there in the world?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "7",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "category": "💻 Technology",
+    "question": "What does RAM stand for?",
+    "options": ["Random Access Memory", "Read Access Memory", "Run Active Memory", "Rapid Access Module"],
+    "correctAnswer": "Random Access Memory",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 39,
+    "category": "💻 Technology",
+    "question": "Which company created Android?",
+    "options": ["Apple", "Google", "Microsoft", "Samsung"],
+    "correctAnswer": "Google",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 40,
+    "category": "🏆 Sports",
+    "question": "Which sport uses a bat and ball?",
+    "options": ["Football", "Cricket", "Hockey", "Tennis"],
+    "correctAnswer": "Cricket",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 41,
+    "category": "🏆 Sports",
+    "question": "How many players in a cricket team?",
+    "options": ["9", "10", "11", "12"],
+    "correctAnswer": "11",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 42,
+    "category": "🎬 Movies",
+    "question": "Who created Marvel Cinematic Universe Iron Man?",
+    "options": ["Chris Evans", "Robert Downey Jr.", "Tom Holland", "Mark Ruffalo"],
+    "correctAnswer": "Robert Downey Jr.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "category": "🎬 Movies",
+    "question": "Which movie is about dinosaurs?",
+    "options": ["Avatar", "Jurassic Park", "Titanic", "Inception"],
+    "correctAnswer": "Jurassic Park",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 44,
+    "category": "🎵 Music",
+    "question": "Which instrument has keys and strings?",
+    "options": ["Guitar", "Piano", "Flute", "Drum"],
+    "correctAnswer": "Piano",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 45,
+    "category": "🎵 Music",
+    "question": "Which country is Beethoven from?",
+    "options": ["France", "Germany", "Italy", "Austria"],
+    "correctAnswer": "Germany",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 46,
+    "category": "📜 History",
+    "question": "Who was the first president of USA?",
+    "options": ["Lincoln", "Washington", "Jefferson", "Adams"],
+    "correctAnswer": "Washington",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 47,
+    "category": "📜 History",
+    "question": "Which war ended in 1945?",
+    "options": ["WW1", "WW2", "Cold War", "Korean War"],
+    "correctAnswer": "WW2",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 48,
+    "category": "🌍 Geography",
+    "question": "Which country is known as Land of Rising Sun?",
+    "options": ["China", "Japan", "Thailand", "India"],
+    "correctAnswer": "Japan",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 49,
+    "category": "🌍 Geography",
+    "question": "Which is the smallest continent?",
+    "options": ["Europe", "Australia", "Africa", "Asia"],
+    "correctAnswer": "Australia",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 50,
+    "category": "🧪 Science",
+    "question": "What is speed of light approximately?",
+    "options": ["300,000 km/s", "150,000 km/s", "1,000 km/s", "30,000 km/s"],
+    "correctAnswer": "300,000 km/s",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 51,
+    "category": "🧪 Science",
+    "question": "Which gas is most abundant in Earth atmosphere?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "correctAnswer": "Nitrogen",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 52,
+    "category": "💻 Technology",
+    "question": "What is used to browse internet?",
+    "options": ["Compiler", "Browser", "Editor", "Driver"],
+    "correctAnswer": "Browser",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 53,
+    "category": "💻 Technology",
+    "question": "Which company owns YouTube?",
+    "options": ["Apple", "Microsoft", "Google", "Meta"],
+    "correctAnswer": "Google",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 54,
+    "category": "🏆 Sports",
+    "question": "Which country invented football?",
+    "options": ["Brazil", "England", "Germany", "France"],
+    "correctAnswer": "England",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 55,
+    "category": "🏆 Sports",
+    "question": "Olympics are held every how many years?",
+    "options": ["2", "3", "4", "5"],
+    "correctAnswer": "4",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 56,
+    "category": "🎬 Movies",
+    "question": "Which movie has character Jack and Rose?",
+    "options": ["Titanic", "Avatar", "Inception", "Frozen"],
+    "correctAnswer": "Titanic",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 57,
+    "category": "🎬 Movies",
+    "question": "Which superhero is Peter Parker?",
+    "options": ["Batman", "Superman", "Spider-Man", "Iron Man"],
+    "correctAnswer": "Spider-Man",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 58,
+    "category": "🎵 Music",
+    "question": "Which singer is known as Queen of Pop?",
+    "options": ["Madonna", "Taylor Swift", "Ariana Grande", "Rihanna"],
+    "correctAnswer": "Madonna",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 59,
+    "category": "🎵 Music",
+    "question": "How many notes are in music scale?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "7",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 60,
+    "category": "📜 History",
+    "question": "When did Nepal Earthquake 2015 occur?",
+    "options": ["April 25", "May 10", "June 5", "March 20"],
+    "correctAnswer": "April 25",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 61,
+    "category": "🧪 Science",
+    "question": "What is the SI unit of force?",
+    "options": ["Joule", "Newton", "Watt", "Pascal"],
+    "correctAnswer": "Newton",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 62,
+    "category": "🧪 Science",
+    "question": "What is the acceleration due to gravity on Earth?",
+    "options": ["9.8 m/s²", "10 m/s²", "8.9 m/s²", "12 m/s²"],
+    "correctAnswer": "9.8 m/s²",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 63,
+    "category": "🧪 Science",
+    "question": "Which particle has negative charge?",
+    "options": ["Proton", "Neutron", "Electron", "Photon"],
+    "correctAnswer": "Electron",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 64,
+    "category": "🌍 Geography",
+    "question": "Which is the deepest point on Earth?",
+    "options": ["Mariana Trench", "Dead Sea", "Grand Canyon", "Java Trench"],
+    "correctAnswer": "Mariana Trench",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 65,
+    "category": "🌍 Geography",
+    "question": "Which country has the most islands?",
+    "options": ["Indonesia", "Philippines", "Sweden", "Norway"],
+    "correctAnswer": "Sweden",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 66,
+    "category": "📜 History",
+    "question": "In which year did World War I begin?",
+    "options": ["1912", "1914", "1916", "1918"],
+    "correctAnswer": "1914",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 67,
+    "category": "📜 History",
+    "question": "Who was the first king of unified Nepal?",
+    "options": ["King Birendra", "Prithvi Narayan Shah", "King Mahendra", "Tribhuvan"],
+    "correctAnswer": "Prithvi Narayan Shah",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 68,
+    "category": "📜 History",
+    "question": "Which treaty ended WW1?",
+    "options": ["Treaty of Paris", "Treaty of Versailles", "Treaty of London", "Treaty of Rome"],
+    "correctAnswer": "Treaty of Versailles",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 69,
+    "category": "💻 Technology",
+    "question": "Who is known as father of computer?",
+    "options": ["Alan Turing", "Charles Babbage", "Bill Gates", "Steve Jobs"],
+    "correctAnswer": "Charles Babbage",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 70,
+    "category": "💻 Technology",
+    "question": "What does HTTP stand for?",
+    "options": ["HyperText Transfer Protocol", "HighText Transfer Protocol", "Hyper Transfer Text Process", "Home Transfer Text Protocol"],
+    "correctAnswer": "HyperText Transfer Protocol",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 71,
+    "category": "💻 Technology",
+    "question": "Which language is used for web structure?",
+    "options": ["Python", "HTML", "C++", "Java"],
+    "correctAnswer": "HTML",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 72,
+    "category": "🏆 Sports",
+    "question": "Which country has won most FIFA World Cups?",
+    "options": ["Germany", "Brazil", "Italy", "Argentina"],
+    "correctAnswer": "Brazil",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 73,
+    "category": "🏆 Sports",
+    "question": "How long is an Olympic swimming pool?",
+    "options": ["25m", "50m", "75m", "100m"],
+    "correctAnswer": "50m",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 74,
+    "category": "🏆 Sports",
+    "question": "Which sport uses shuttlecock?",
+    "options": ["Tennis", "Badminton", "Table Tennis", "Squash"],
+    "correctAnswer": "Badminton",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 75,
+    "category": "🎬 Movies",
+    "question": "Which movie won Oscar Best Picture 2020?",
+    "options": ["1917", "Joker", "Parasite", "Ford v Ferrari"],
+    "correctAnswer": "Parasite",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 76,
+    "category": "🎬 Movies",
+    "question": "Who directed Avatar?",
+    "options": ["Steven Spielberg", "James Cameron", "Christopher Nolan", "Peter Jackson"],
+    "correctAnswer": "James Cameron",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 77,
+    "category": "🎬 Movies",
+    "question": "Which movie features Thanos?",
+    "options": ["Avengers", "Batman", "Superman", "Spiderman"],
+    "correctAnswer": "Avengers",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 78,
+    "category": "🎵 Music",
+    "question": "Who composed Beethoven Symphony No. 9?",
+    "options": ["Mozart", "Beethoven", "Bach", "Chopin"],
+    "correctAnswer": "Beethoven",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 79,
+    "category": "🎵 Music",
+    "question": "Which instrument is used in jazz?",
+    "options": ["Sitar", "Saxophone", "Flute", "Harmonium"],
+    "correctAnswer": "Saxophone",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 80,
+    "category": "🎵 Music",
+    "question": "Which country started Hip-Hop music?",
+    "options": ["UK", "USA", "France", "Canada"],
+    "correctAnswer": "USA",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 81,
+    "category": "🧠 General Knowledge",
+    "question": "Which is the most spoken language in the world?",
+    "options": ["English", "Hindi", "Mandarin Chinese", "Spanish"],
+    "correctAnswer": "Mandarin Chinese",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 82,
+    "category": "🧠 General Knowledge",
+    "question": "What is the tallest building in the world?",
+    "options": ["Eiffel Tower", "Burj Khalifa", "Empire State", "Shanghai Tower"],
+    "correctAnswer": "Burj Khalifa",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 83,
+    "category": "🌍 Geography",
+    "question": "Which desert is the largest in the world?",
+    "options": ["Sahara", "Gobi", "Kalahari", "Arabian"],
+    "correctAnswer": "Sahara",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 84,
+    "category": "🌍 Geography",
+    "question": "Which country is both in Europe and Asia?",
+    "options": ["Russia", "India", "China", "Turkey"],
+    "correctAnswer": "Russia",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 85,
+    "category": "🧪 Science",
+    "question": "What is DNA full form?",
+    "options": [
+      "Deoxyribonucleic Acid",
+      "Digital Network Access",
+      "Dynamic Nuclear Atom",
+      "Dual Nucleotide Acid"
+    ],
+    "correctAnswer": "Deoxyribonucleic Acid",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 86,
+    "category": "🧪 Science",
+    "question": "What is the powerhouse of the cell?",
+    "options": ["Nucleus", "Ribosome", "Mitochondria", "Chloroplast"],
+    "correctAnswer": "Mitochondria",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 87,
+    "category": "💻 Technology",
+    "question": "Which company developed iPhone?",
+    "options": ["Microsoft", "Apple", "Google", "Samsung"],
+    "correctAnswer": "Apple",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 88,
+    "category": "💻 Technology",
+    "question": "What does AI learn from data?",
+    "options": ["Algorithms", "Machine Learning", "Hardware", "Internet"],
+    "correctAnswer": "Machine Learning",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 89,
+    "category": "🏆 Sports",
+    "question": "Which country hosted FIFA World Cup 2018?",
+    "options": ["Brazil", "Russia", "Qatar", "Germany"],
+    "correctAnswer": "Russia",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 90,
+    "category": "📜 History",
+    "question": "Which empire built the Taj Mahal?",
+    "options": ["Mughal Empire", "Roman Empire", "Ottoman Empire", "British Empire"],
+    "correctAnswer": "Mughal Empire",
+    "difficulty": "Hard"
+  }
+]
