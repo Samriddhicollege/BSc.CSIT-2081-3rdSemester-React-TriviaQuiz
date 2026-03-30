@@ -16,7 +16,7 @@ export default function Navbar({ playerName, difficulty, category, showStats }) 
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: 'spring', stiffness: 300 }}
             >
-                Trivia Master
+                Trivia Quiz
             </motion.h1>
 
             {showStats && (
