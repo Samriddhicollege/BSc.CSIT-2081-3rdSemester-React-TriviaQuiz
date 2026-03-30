@@ -1,16 +1,138 @@
-# React + Vite
+TRIVIA QUIZ APPLICATION
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📖 PROJECT OVERVIEW
 
-Currently, two official plugins are available:
+This project is a web-based Trivia Quiz Application developed using React.js and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+It provides an interactive quiz experience where users can:
 
-## React Compiler
+Select categories
+Answer timed questions
+Track their scores
+_____________________________________________________________________________________________________________________________________________________________________________
+🔥 Key Idea
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The main goal is to build a real-world interactive frontend project using component-based architecture and global state management.
 
-## Expanding the ESLint configuration
+_____________________________________________________________________________________________________________________________________________________________________________
+🚀 KEY FEATURES
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✔ Category-based quiz system
+
+✔ Timer-based questions
+
+✔ Score tracking system
+
+✔ Leaderboard (High Scores)
+
+✔ Modern UI design
+
+✔ Context API state management
+
+✔ Responsive design
+
+_____________________________________________________________________________________________________________________________________________________________________________
+Application Sections:
+
+Home Page / Name Input Screen
+
+Category Selection Page
+
+Quiz Interface
+
+Result Page
+
+Score Summary Module
+
+_____________________________________________________________________________________________________________________________________________________________________________
+⚙️ INSTALLATION & SETUP
+git clone https://github.com/yourusername/trivia-quiz-app.git
+
+cd trivia-quiz-app
+
+npm install
+
+npm run dev
+
+npm run build
+
+_____________________________________________________________________________________________________________________________________________________________________________
+📁 PROJECT STRUCTURE
+
+trivia-quiz-app/
+
+├── public/
+
+│   └── data/questions.json
+
+├── src/
+
+│   ├── components/
+
+│   ├── context/
+
+│   ├── App.jsx
+
+│   └── main.jsx
+
+└── index.html
+
+_____________________________________________________________________________________________________________________________________________________________________________
+🛠️ TECHNOLOGIES USED
+
+React.js
+
+Vite
+
+JavaScript
+
+CSS
+
+Context API
+
+Git & GitHub
+_____________________________________________________________________________________________________________________________________________________________________________
+🌐 LIVE DEMO
+
+👉 https://trivaquiz.web.app
+
+_____________________________________________________________________________________________________________________________________________________________________________
+🧪 TESTING
+Tested on Chrome, Edge, Firefox
+
+Responsive design 
+
+Timer & scoring logic checked
+
+_____________________________________________________________________________________________________________________________________________________________________________
+⚠️ CHALLENGES FACED
+
+Managing global state between components
+
+Handling timer synchronization
+
+Deployment issues on Firebase
+
+UI consistency across browsers
+
+_____________________________________________________________________________________________________________________________________________________________________________
+🔮 FUTURE ENHANCEMENTS
+Leaderboard system improvement
+
+More quiz categories
+
+Difficulty levels
+
+Sound effects & animations
+
+User authentication system
+
+_____________________________________________________________________________________________________________________________________________________________________________
+🙏 ACKNOWLEDGEMENT
+
+I would like to thank my instructor Dipak Shrestha for guidance and support throughout this project.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📜 DECLARATION
+
+I hereby declare that this project is my original academic work.
