@@ -5,7 +5,7 @@ import { useQuiz } from '../context/QuizContext';
 
 export default function StartScreen({ onStart, onViewHighScores }) {
     const { playerName, setPlayerName } = useQuiz();
-    const [difficulty, setDifficulty] = useState('Medium'); // Easy, Medium, Hard
+    const [difficulty, setDifficulty] = useState('Medium'); 
     const [error, setError] = useState('');
 
     const handleSubmit = (e) => {
