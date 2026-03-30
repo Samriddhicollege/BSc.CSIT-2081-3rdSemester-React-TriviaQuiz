@@ -4,12 +4,11 @@ import Question from './Question';
 import Result from './Result';
 import Card from './common/Card';
 import Button from './common/Button';
-import { playCorrectSound, playIncorrectSound, playTimeUpSound } from '../utils/sound'
 import { useQuiz } from '../context/QuizContext';
 
 export default function Quiz({ playerName, timerLimit, difficulty, onRestart }) {
     const { questions, addScore } = useQuiz();
-    const [appState, setAppState] = useState('category_selection'); // category_selection, playing, result
+    const [appState, setAppState] = useState('category_selection'); 
     const [category, setCategory] = useState('All');
     const [currentQuestions, setCurrentQuestions] = useState([]);
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -17,7 +16,6 @@ export default function Quiz({ playerName, timerLimit, difficulty, onRestart }) 
     const [selectedAnswer, setSelectedAnswer] = useState(null);
     const [timeLeft, setTimeLeft] = useState(timerLimit);
 
-    // Shuffle helper (Fisher-Yates)
     const shuffleArray = (array) => {
         const shuffled = [...array];
         for (let i = shuffled.length - 1; i > 0; i--) {
@@ -27,7 +25,6 @@ export default function Quiz({ playerName, timerLimit, difficulty, onRestart }) 
         return shuffled;
     };
 
-    // Timer effect
     useEffect(() => {
         let timer;
         if (appState === 'playing' && !selectedAnswer && timeLeft > 0) {
@@ -67,7 +64,6 @@ export default function Quiz({ playerName, timerLimit, difficulty, onRestart }) 
 
     const handleAnswerTimeUp = () => {
         setSelectedAnswer('Time is up!');
-        playTimeUpSound();
         setTimeout(() => goToNextQuestion(), 2000);
     };
 
@@ -78,9 +74,6 @@ export default function Quiz({ playerName, timerLimit, difficulty, onRestart }) 
 
         if (answer === currentQ.correctAnswer) {
             setScore(prev => prev + 1);
-            playCorrectSound();
-        } else {
-            playIncorrectSound();
         }
         setTimeout(() => goToNextQuestion(), 2000);
     };

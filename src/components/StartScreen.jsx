@@ -15,7 +15,6 @@ export default function StartScreen({ onStart, onViewHighScores }) {
             return;
         }
         setError('');
-        // Map difficulty to seconds
         const timerSeconds = difficulty === 'Easy' ? 45 : difficulty === 'Medium' ? 30 : 15;
         onStart(playerName.trim(), timerSeconds, difficulty);
     };

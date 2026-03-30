@@ -31,7 +31,6 @@ export default function Question({
 
     return (
         <Card className="question-card">
-            {/* Quiz Progress Bar */}
             <div className="progress-container">
                 <motion.div 
                     className="progress-bar" 
@@ -48,7 +47,7 @@ export default function Question({
                 </div>
             </div>
 
-            {/* Timer Progress Bar */}
+        
             <div className={`timer-progress ${timeLeft <= 5 ? 'warning' : ''}`}>
                 <motion.div 
                     className="timer-bar" 

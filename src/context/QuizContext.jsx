@@ -10,12 +10,10 @@ export function QuizProvider({ children }) {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    // Requirement: API Handling (MANDATORY) - Fetching data
     useEffect(() => {
         const fetchQuestions = async () => {
             try {
                 setLoading(true);
-                // In a real app, this would be an external API
                 const response = await fetch('/questions.json');
                 if (!response.ok) throw new Error('Failed to fetch questions');
                 const data = await response.json();
@@ -31,8 +29,6 @@ export function QuizProvider({ children }) {
 
         fetchQuestions();
     }, []);
-
-    // Requirement: LocalStorage (MANDATORY) - Loading saved data
     useEffect(() => {
         const savedScores = localStorage.getItem('trivia_high_scores');
         if (savedScores) {
@@ -45,7 +41,6 @@ export function QuizProvider({ children }) {
         }
     }, []);
 
-    // Requirement: CRUD - Create
     const addScore = (points, total) => {
         const newEntry = {
             name: playerName,
@@ -59,8 +54,6 @@ export function QuizProvider({ children }) {
         setScores(updatedScores);
         localStorage.setItem('trivia_high_scores', JSON.stringify(updatedScores));
     };
-
-    // Requirement: CRUD - Delete
     const clearScores = () => {
         setScores([]);
         localStorage.removeItem('trivia_high_scores');
@@ -91,8 +84,6 @@ export function QuizProvider({ children }) {
         </QuizContext.Provider>
     );
 }
-
-// Requirement: Bonus - Custom Hook (Context variant)
 export function useQuiz() {
     const context = useContext(QuizContext);
     if (!context) {

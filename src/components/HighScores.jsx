@@ -6,8 +6,6 @@ import { useQuiz } from '../context/QuizContext';
 export default function HighScores({ onBack }) {
     const { scores, clearScores } = useQuiz();
     const [searchQuery, setSearchQuery] = useState('');
-    
-    // Sort scores by points (highest first)
     const sortedScores = useMemo(() => {
         return [...scores].sort((a, b) => {
             if (b.points !== a.points) {
@@ -17,7 +15,6 @@ export default function HighScores({ onBack }) {
         });
     }, [scores]);
 
-    // Filtering logic (Search)
     const filteredScores = useMemo(() => {
         if (!searchQuery.trim()) return sortedScores;
         return sortedScores.filter(score => 
