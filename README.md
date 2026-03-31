@@ -1,138 +1,165 @@
-TRIVIA QUIZ APPLICATION
+# 🧠 Trivia Quiz Application (React)
 
-📖 PROJECT OVERVIEW
+An interactive **Trivia Quiz Application** built using **React.js** that allows users to test their knowledge through category-based quizzes with real-time scoring and a timer-based challenge system.
 
-This project is a web-based Trivia Quiz Application developed using React.js and Vite.
+---
 
-It provides an interactive quiz experience where users can:
+## 👨‍🎓 Student Information
+- **Name:** Sumnima Karki  
+- **Roll Number:** 20 'A"
+- **Course / Program:** BSc CSIT  
+- **Semester / Year:** 3rd Semester / 2026  
 
-Select categories
-Answer timed questions
-Track their scores
-_____________________________________________________________________________________________________________________________________________________________________________
-🔥 Key Idea
+---
 
-The main goal is to build a real-world interactive frontend project using component-based architecture and global state management.
+## 👨‍🏫 Instructor Information
+- **Instructor Name:** Mr. Dipak Shrestha 
+- **Course Title:** React Development  
+- **College Name:** Samriddhi College  
 
-_____________________________________________________________________________________________________________________________________________________________________________
-🚀 KEY FEATURES
+---
 
-✔ Category-based quiz system
+## 📌 Project Overview
+This project is a **web-based Trivia Quiz Application** developed using React.js.
 
-✔ Timer-based questions
+### Key Highlights:
+- Users can select quiz categories  
+- Answer multiple-choice questions  
+- Track scores in real time  
+- Experience a timer-based quiz system  
 
-✔ Score tracking system
+At the end of the quiz, users can view their results and restart the quiz to improve performance.
 
-✔ Leaderboard (High Scores)
+🎯 **Goal:** Enhance learning through an engaging and interactive quiz experience while practicing modern frontend development.
 
-✔ Modern UI design
+---
 
-✔ Context API state management
+## 🎯 Objectives
+- Build a responsive and interactive React application  
+- Implement quiz logic with scoring system  
+- Use state management effectively (`useState`, `useEffect`, Context API)  
+- Create a timer-based question system  
+- Improve UI/UX design skills  
 
-✔ Responsive design
+---
 
-_____________________________________________________________________________________________________________________________________________________________________________
-Application Sections:
+## 🛠️ Technologies Used
 
-Home Page / Name Input Screen
+### Frontend
+- React.js  
+- HTML, CSS, JavaScript  
+- Tailwind CSS *(if used)*  
 
-Category Selection Page
+### Backend / Hosting
+- Firebase *(for deployment, if used)*  
 
-Quiz Interface
+### Other Tools
+- Git & GitHub  
+- Vite  
+- Firebase Hosting  
 
-Result Page
+---
 
-Score Summary Module
+## ✨ Key Features
+- Category-based quiz selection  
+- Timer-based questions ⏱️  
+- Real-time score tracking  
+- Dynamic question rendering  
+- Result summary screen  
+- Restart quiz functionality  
+- Fully responsive design  
 
-_____________________________________________________________________________________________________________________________________________________________________________
-⚙️ INSTALLATION & SETUP
-git clone https://github.com/yourusername/trivia-quiz-app.git
+---
 
+## 📱 Screens / Modules
+- Home Page / Name Input Screen  
+- Category Selection Page  
+- Quiz Interface  
+- Result Page  
+- Score Summary Module  
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
+
+bash 
+
+git clone https://github.com/Samriddhicollege/BSc.CSIT-2081-3rdSemester-React-TriviaQuiz/
+
+2. Navigate to Project Folder  
 cd trivia-quiz-app
 
+3. Install Dependencies
 npm install
 
+4. Run Development Server
 npm run dev
 
+5. Build for Production
 npm run build
 
-_____________________________________________________________________________________________________________________________________________________________________________
-📁 PROJECT STRUCTURE
+📂 Project Structure
 
-trivia-quiz-app/
+ /project-root
+ 
+ │── src/
+ 
+ │   ├── components/
+ 
+ │   ├── pages/
+ 
+ │   ├── context/
+ 
+ │   ├── assets/
+ │
+ │── public/
+ 
+ │── index.html
+ 
+ │── package.json
+ 
+ │── README.md
+ 
+🔗 GitHub & Live Demo
 
-├── public/
+GitHub Repository: https://github.com/Samriddhicollege/BSc.CSIT-2081-3rdSemester-React-TriviaQuiz/
 
-│   └── data/questions.json
+Live Demo: https://trivaquiz.web.app
 
-├── src/
+🧪 Testing
 
-│   ├── components/
+Tested on multiple browsers (Chrome, Edge, Firefox
 
-│   ├── context/
+Verified responsiveness on mobile and desktop
 
-│   ├── App.jsx
+Checked timer accuracy and quiz logic
 
-│   └── main.jsx
+Tested score calculation and result rendering
 
-└── index.html
+⚠️ Challenges Faced
 
-_____________________________________________________________________________________________________________________________________________________________________________
-🛠️ TECHNOLOGIES USED
+Managing global state across multiple components
 
-React.js
+Handling timer synchronization during quiz flow
 
-Vite
+Debugging Firebase deployment issues
 
-JavaScript
+Maintaining consistent UI across browsers
 
-CSS
+🚀 Future Enhancements
 
-Context API
+Add leaderboard system 🏆
 
-Git & GitHub
-_____________________________________________________________________________________________________________________________________________________________________________
-🌐 LIVE DEMO
-
-👉 https://trivaquiz.web.app
-
-_____________________________________________________________________________________________________________________________________________________________________________
-🧪 TESTING
-Tested on Chrome, Edge, Firefox
-
-Responsive design 
-
-Timer & scoring logic checked
-
-_____________________________________________________________________________________________________________________________________________________________________________
-⚠️ CHALLENGES FACED
-
-Managing global state between components
-
-Handling timer synchronization
-
-Deployment issues on Firebase
-
-UI consistency across browsers
-
-_____________________________________________________________________________________________________________________________________________________________________________
-🔮 FUTURE ENHANCEMENTS
-Leaderboard system improvement
-
-More quiz categories
-
-Difficulty levels
-
-Sound effects & animations
-
+Add more quiz categories
+Implement difficulty levels
+Add sound effects and animations
 User authentication system
+🙏 Acknowledgement
 
-_____________________________________________________________________________________________________________________________________________________________________________
-🙏 ACKNOWLEDGEMENT
+I would like to thank my instructor for their guidance and support throughout this project development process.
 
-I would like to thank my instructor Dipak Shrestha for guidance and support throughout this project.
+📜 Declaration
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📜 DECLARATION
-
-I hereby declare that this project is my original academic work.
+I hereby declare that this project is my original work and has been completed as part of my academic submission.
